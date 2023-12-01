@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
+
+
+body,html{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+p,h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+*{
+    font-family: 'poppins',sans-serif !important;
+}
+#scene-container { 
+    position: fixed;
+    z-index: 1;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+nav{
+    position: fixed;
+    height: 55px;
+    width: 100%;
+    z-index: 3 ;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    z-index: 3;
+}
+nav ul li h3{
+    color: white;
+}
+.ul_title{
+    justify-content: flex-start;
+}
+ul{
+    width: 50%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+section{
+    position: relative;
+    z-index: 2;
+    height: 100vh;
+    width: 100%;
+    padding-top: 55px;
+    color: white;
+}
+.sec1_holder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 10%;
+}
+.sec1_holder h1{
+    font-size: 3.2rem;
+}
+h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.sec1_holder p{
+    text-align: center;
+}
+.sec2_holder{
+    padding: 5%;
+    display: flex;
+    flex-direction: row;
+}
+.half_holder{
+    border: 1px solid white;
+    padding: 2.5%;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+.half_holder2{
+    width: 50%;
+    height: 100%;
+    border: none;
+}
+.half_holder p{
+    text-align: left;
+}
